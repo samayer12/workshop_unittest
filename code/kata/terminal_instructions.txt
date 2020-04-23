@@ -1,0 +1,4 @@
+from directory `unittest/code/kata` execute:
+
+python -m unittest test/test_fizzbuzz.py
+python src/fizzbuzz.py 100

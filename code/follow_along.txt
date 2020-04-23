@@ -1,0 +1,23 @@
+# Simple terminal demo, type along!
+
+python
+import unittest
+
+# Create TestCase object to play with
+tester = unittest.TestCase()
+dir(tester)
+
+# Equality assertions
+tester.assertEqual(1, 1)
+tester.assertNotEqual(1, 1)
+
+# Boolean assertions
+tester.assertTrue(1==1)
+
+# Membership assertions
+test_list = [1, 2, 3]
+tester.assertIn(1, test_list)
+
+# Type assertions
+tester.assertIsInstance(1, int)
+tester.assertIsInstance('word', int)
