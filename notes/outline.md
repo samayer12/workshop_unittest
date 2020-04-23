@@ -85,7 +85,7 @@ I'm using Python 3.8 and PyCharm
 * Defense against bad architecture
 
 >
-> "I get paid for code that works." - [Kent Beck](https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests/153565#153565)
+> "I get paid for code that works." - [Kent Beck](https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests/)
 >
 
 ---
@@ -94,7 +94,7 @@ I'm using Python 3.8 and PyCharm
 ===
 
 * [Unit Tests According to Fowler](https://martinfowler.com/bliki/UnitTest.html)
-* [Alternate Unit Test Definition](https://tanzu.vmware.com/content/blog/what-is-a-unit-test-the-answer-might-surprise-you) 
+* [Alternate Unit Test Definition](https://preview.tinyurl.com/y7zuhvvn)
 * [Test Doubles: A Primer](https://dareenzo.github.io/blog/2018/10/24/test-doubles-a-primer/)
 * [Pivotal's Test-Double QuickRef](http://engineering.pivotal.io/post/the-test-double-rule-of-thumb/)
 
