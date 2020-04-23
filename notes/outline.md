@@ -9,7 +9,7 @@
 
 I'm using Python 3.8 and PyCharm
 [Documentation Here](https://docs.python.org/3/library/unittest.html)
-[Workshop Repo](GITHUB LINK HERE)
+[Workshop Repo](https://github.com/samayer12/workshop_unittest)
 
 ---
 
