@@ -80,7 +80,7 @@ I'm using Python 3.8 and PyCharm
 -> What Unit Tests Are Not <-
 ===
 
-* Wasted Developer Hours
+* Wasted developer hours
 * Panacea (cure-all)
 * Defense against bad architecture
 
