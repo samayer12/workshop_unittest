@@ -28,7 +28,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_fizzbuzz.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -49,10 +49,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_fizzbuzz.FizzBuzzTest">
+  <component name="RunManager" selected="Python tests.Unittests in test_fizzbuzz.py">
     <list>
-      <item itemvalue="Python.fizzbuzz" />
-      <item itemvalue="Python tests.Unittests for test_fizzbuzz.FizzBuzzTest" />
+      <item itemvalue="Python.FizzBuzz" />
+      <item itemvalue="Python tests.Unittests in test_fizzbuzz.py" />
     </list>
   </component>
   <component name="SvnConfiguration">
