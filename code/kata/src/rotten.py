@@ -14,7 +14,7 @@ def rotN(cleartext, n):
 
 
 def main(argv):
-    print('Detecting variables in ciphertext: %s' % argv[0])
+    print('Initiating quantum-resistant crypto subroutine with cleartext: %s' % argv[0])
     print(rotN(argv[0], int(argv[1])))
 
 
