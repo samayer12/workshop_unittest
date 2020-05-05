@@ -11,10 +11,12 @@ class DecoderTest(unittest.TestCase):
         # Act, Assert
         self.assertEqual(expected, decode(input))
 
+    # Fails with "Simple regex", passes with "Final regex"
     def test_identify_escaped_variables(self):
         # Arrange, Act, Assert
         self.assertEqual(['ZAp0ZuZ', 'AuX0AZA'], decode('ZAp0ZuZAuX0AZA'))
 
+    # Fails with "Simple regex", passes with "Final regex"
     def test_identify_mixed_variables(self):
         # Arrange
         input = 'XydWBAdc0XazVywFEABYdXxzv32wz0dxwgjw2zvyATZBYvyc0' \
