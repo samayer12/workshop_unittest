@@ -12,6 +12,8 @@ def rotN(cleartext, n):
     ciphertext = lambda s: s.translate(lookup)
     return ciphertext(cleartext)
 
+# '0123456789'
+# '0123456789'[n:] + '0123456789'[:n])
 
 def main(argv):
     print('Initiating quantum-resistant crypto subroutine with cleartext: %s' % argv[0])

@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="286d8522-0fc3-47e9-ad7c-f13465138cc4" name="Default Changelist" comment="Add regex decoder example">
-      <change afterPath="$PROJECT_DIR$/src/rotten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_rotten.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="286d8522-0fc3-47e9-ad7c-f13465138cc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/rotten.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rotten.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +247,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588704813700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add ROT-N Example">
+      <created>1588707570106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588707570106</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add comments explaining test failure with first regex">
+      <created>1588707597693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588707597693</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add run config">
+      <created>1588707611748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588707611748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +286,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Run Configurations" />
     <MESSAGE value="Add regex decoder example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add regex decoder example" />
+    <MESSAGE value="Add ROT-N Example" />
+    <MESSAGE value="Add comments explaining test failure with first regex" />
+    <MESSAGE value="Add run config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add run config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2167" y="1169" width="806" height="827" key="#Vim_Emulation" timestamp="1588704526551">
@@ -278,33 +300,33 @@
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
     <state x="2344" y="1256" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707461756" />
-    <state x="1920" y="1080" width="1920" height="1035" key="CommitChangelistDialog2" timestamp="1588707433468">
+    <state x="1920" y="1080" width="1920" height="1035" key="CommitChangelistDialog2" timestamp="1588707611717">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state x="1920" y="1080" width="1920" height="1035" key="CommitChangelistDialog2/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707433468" />
+    <state x="1920" y="1080" width="1920" height="1035" key="CommitChangelistDialog2/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707611717" />
     <state x="2667" y="1342" key="FileChooserDialogImpl" timestamp="1588707450236">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
     <state x="2667" y="1342" key="FileChooserDialogImpl/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707450236" />
-    <state width="1874" height="193" key="GridCell.Tab.0.bottom" timestamp="1588707332183">
+    <state width="1874" height="193" key="GridCell.Tab.0.bottom" timestamp="1588707483895">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state width="1874" height="193" key="GridCell.Tab.0.bottom/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707332183" />
-    <state width="1874" height="193" key="GridCell.Tab.0.center" timestamp="1588707332183">
+    <state width="1874" height="193" key="GridCell.Tab.0.bottom/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707483895" />
+    <state width="1874" height="193" key="GridCell.Tab.0.center" timestamp="1588707483895">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state width="1874" height="193" key="GridCell.Tab.0.center/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707332183" />
-    <state width="1874" height="193" key="GridCell.Tab.0.left" timestamp="1588707332183">
+    <state width="1874" height="193" key="GridCell.Tab.0.center/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707483895" />
+    <state width="1874" height="193" key="GridCell.Tab.0.left" timestamp="1588707483895">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state width="1874" height="193" key="GridCell.Tab.0.left/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707332183" />
-    <state width="1874" height="193" key="GridCell.Tab.0.right" timestamp="1588707332183">
+    <state width="1874" height="193" key="GridCell.Tab.0.left/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707483895" />
+    <state width="1874" height="193" key="GridCell.Tab.0.right" timestamp="1588707483895">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state width="1874" height="193" key="GridCell.Tab.0.right/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707332183" />
-    <state x="2480" y="1334" key="Vcs.Push.Dialog.v2" timestamp="1588704848240">
+    <state width="1874" height="193" key="GridCell.Tab.0.right/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707483895" />
+    <state x="2480" y="1334" key="Vcs.Push.Dialog.v2" timestamp="1588707616533">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state x="2480" y="1334" key="Vcs.Push.Dialog.v2/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704848240" />
+    <state x="2480" y="1334" key="Vcs.Push.Dialog.v2/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707616533" />
   </component>
 </project>
