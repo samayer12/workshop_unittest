@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="286d8522-0fc3-47e9-ad7c-f13465138cc4" name="Default Changelist" comment="Add Run Configurations">
-      <change afterPath="$PROJECT_DIR$/src/regexDecoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_regexDecoder.py" afterDir="false" />
+    <list default="true" id="286d8522-0fc3-47e9-ad7c-f13465138cc4" name="Default Changelist" comment="Add regex decoder example">
+      <change afterPath="$PROJECT_DIR$/src/rotten.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_rotten.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/regexDecoder.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_rotten.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -58,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.regexDecoder">
+  <component name="RunManager" selected="Python tests.Test | RegexDecoder">
     <configuration name="regexDecoder" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="kata" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +73,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/regexDecoder.py" />
       <option name="PARAMETERS" value="XydWBAdc0XazVywFEABYdXxzv32wz0dxwgjw2zvyATZBYvyc0A0ADA1vibhidkjgfkfax1fx13XTTdYWwvCZvX1bahawhch3eCzFwzxa0CzXzWEVwXFVZCa0jegid2kv30b1e2CFFyUcbbbaAXbC12zgwh1ckidwhx1bvVzyFXUDyxFWxxbAEDWUcV1wfb0a1v1v1v1v2k30bZdzAEAYzUbwUCExBZfi3w3hcawckyevDWdxxTyFaAvAFxw0DEFFXD2xfxacigwfck3z0giYDZWFVDyTExTaZEzXcCWCYj13dx0zgxkcAwDXFVTzZEBAbxgk10axwgkwAaxxCFZyVUwbby0AazZaZA1yyz0212wc2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rotten" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="kata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/Documents/workshops/unittest/code/kata/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/rotten.py" />
+      <option name="PARAMETERS" value="TheWormLovesUs 13" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -95,7 +116,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_regexDecoder.DecoderTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Test | Rotten" type="tests" factoryName="Unittests">
+      <module name="kata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/Documents/workshops/unittest/code/kata/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_rotten.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_rotten.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="kata" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +141,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_regexDecoder.DecoderTest&quot;" />
+      <option name="_new_target" value="&quot;test_rotten.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_regexDecoder.DecoderTest.test_identify_escaped_variables" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_rotten.MyTestCase.test_rotate_five_uppercase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="kata" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +155,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_regexDecoder.DecoderTest.test_identify_escaped_variables&quot;" />
+      <option name="_new_target" value="&quot;test_rotten.MyTestCase.test_rotate_five_uppercase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_regexDecoder.DecoderTest.test_identify_simple_variables" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_rotten.MyTestCase.test_rotate_one_lowercase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="kata" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,24 +169,58 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_regexDecoder.DecoderTest.test_identify_simple_variables&quot;" />
+      <option name="_new_target" value="&quot;test_rotten.MyTestCase.test_rotate_one_lowercase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_rotten.MyTestCase.test_rotate_sentence" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_rotten.MyTestCase.test_rotate_sentence&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_rotten.MyTestCase.test_rotate_supports_integers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_rotten.MyTestCase.test_rotate_supports_integers&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.rotten" />
       <item itemvalue="Python.regexDecoder" />
       <item itemvalue="Python.FizzBuzz" />
+      <item itemvalue="Python tests.Test | Rotten" />
       <item itemvalue="Python tests.Test | FizzBuzz" />
       <item itemvalue="Python tests.Test | RegexDecoder" />
-      <item itemvalue="Python tests.Unittests for test_regexDecoder.DecoderTest.test_identify_simple_variables" />
-      <item itemvalue="Python tests.Unittests for test_regexDecoder.DecoderTest.test_identify_escaped_variables" />
-      <item itemvalue="Python tests.Unittests for test_regexDecoder.DecoderTest" />
+      <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase.test_rotate_one_lowercase" />
+      <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase.test_rotate_five_uppercase" />
+      <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase.test_rotate_sentence" />
+      <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase" />
+      <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase.test_rotate_supports_integers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_regexDecoder.DecoderTest.test_identify_escaped_variables" />
-        <item itemvalue="Python tests.Unittests for test_regexDecoder.DecoderTest.test_identify_simple_variables" />
-        <item itemvalue="Python tests.Unittests for test_regexDecoder.DecoderTest" />
+        <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase" />
+        <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase.test_rotate_supports_integers" />
+        <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase.test_rotate_one_lowercase" />
+        <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase.test_rotate_five_uppercase" />
+        <item itemvalue="Python tests.Unittests for test_rotten.MyTestCase.test_rotate_sentence" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588701049801</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add regex decoder example">
+      <created>1588704813700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588704813700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,44 +266,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Run Configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Run Configurations" />
+    <MESSAGE value="Add regex decoder example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add regex decoder example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2167" y="1169" width="806" height="827" key="#Vim_Emulation" timestamp="1588704526551">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
     <state x="2167" y="1169" width="806" height="827" key="#Vim_Emulation/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704526551" />
-    <state x="2344" y="1256" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588704771502">
+    <state x="2344" y="1256" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588707461756">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state x="2344" y="1256" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704771502" />
-    <state x="1920" y="1080" width="1920" height="1035" key="CommitChangelistDialog2" timestamp="1588704702089">
+    <state x="2344" y="1256" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707461756" />
+    <state x="1920" y="1080" width="1920" height="1035" key="CommitChangelistDialog2" timestamp="1588707433468">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state x="1920" y="1080" width="1920" height="1035" key="CommitChangelistDialog2/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704702089" />
-    <state x="2667" y="1342" key="FileChooserDialogImpl" timestamp="1588704741696">
+    <state x="1920" y="1080" width="1920" height="1035" key="CommitChangelistDialog2/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707433468" />
+    <state x="2667" y="1342" key="FileChooserDialogImpl" timestamp="1588707450236">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state x="2667" y="1342" key="FileChooserDialogImpl/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704741696" />
-    <state width="1874" height="193" key="GridCell.Tab.0.bottom" timestamp="1588704747066">
+    <state x="2667" y="1342" key="FileChooserDialogImpl/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707450236" />
+    <state width="1874" height="193" key="GridCell.Tab.0.bottom" timestamp="1588707332183">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state width="1874" height="193" key="GridCell.Tab.0.bottom/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704747066" />
-    <state width="1874" height="193" key="GridCell.Tab.0.center" timestamp="1588704747066">
+    <state width="1874" height="193" key="GridCell.Tab.0.bottom/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707332183" />
+    <state width="1874" height="193" key="GridCell.Tab.0.center" timestamp="1588707332183">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state width="1874" height="193" key="GridCell.Tab.0.center/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704747066" />
-    <state width="1874" height="193" key="GridCell.Tab.0.left" timestamp="1588704747066">
+    <state width="1874" height="193" key="GridCell.Tab.0.center/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707332183" />
+    <state width="1874" height="193" key="GridCell.Tab.0.left" timestamp="1588707332183">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state width="1874" height="193" key="GridCell.Tab.0.left/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704747066" />
-    <state width="1874" height="193" key="GridCell.Tab.0.right" timestamp="1588704747066">
+    <state width="1874" height="193" key="GridCell.Tab.0.left/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707332183" />
+    <state width="1874" height="193" key="GridCell.Tab.0.right" timestamp="1588707332183">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state width="1874" height="193" key="GridCell.Tab.0.right/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704747066" />
-    <state x="2480" y="1334" key="Vcs.Push.Dialog.v2" timestamp="1588701102308">
+    <state width="1874" height="193" key="GridCell.Tab.0.right/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588707332183" />
+    <state x="2480" y="1334" key="Vcs.Push.Dialog.v2" timestamp="1588704848240">
       <screen x="1920" y="1080" width="1920" height="1080" />
     </state>
-    <state x="2480" y="1334" key="Vcs.Push.Dialog.v2/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588701102308" />
+    <state x="2480" y="1334" key="Vcs.Push.Dialog.v2/1920.1080.1920.1080/1919.0.1920.1080/0.1080.1920.1080/3840.1080.1920.1080@1920.1080.1920.1080" timestamp="1588704848240" />
   </component>
 </project>
