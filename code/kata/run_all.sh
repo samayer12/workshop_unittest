@@ -4,7 +4,7 @@
 # FizzBuzz
 python -m unittest test/test_fizzbuzz.py
 python src/fizzbuzz.py 10
-    Expect output ['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz']
+    # Expect output ['FizzBuzz', 1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz']
 
 # Regex Decoder
 python -m unittest test/test_regexDecoder.py
